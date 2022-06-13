@@ -20,4 +20,11 @@
     "price": 7.99,
     "stock": 5689
     }
+    {
+        "id": 4,
+        "name": "Elegance Hair Shampoo",
+        "description": "Hair Shampoo with Aloe Vera.",
+        "price": 500,
+        "stock": 50
+        }
    ]
