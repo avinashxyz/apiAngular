@@ -3,13 +3,13 @@
   <tr>
     <th>Id</th>
     <th>Name</th>
-    <th>Email</th>
-    <th>Body</th>
+    <th>description</th>
+    <th>price</th>
   </tr>
   <tr *ngFor="let com of lstComments">
     <td>{{ com.id }}</td>
     <td>{{ com.name }}</td>
-    <td>{{ com.email }}</td>
-    <td>{{ com.body }}</td>
+    <td>{{ com.description }}</td>
+    <td>{{ com.price }}</td>
   </tr>
 </table>

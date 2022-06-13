@@ -11,7 +11,7 @@ export class FreeApiService {
 
   getcomments(): Observable<any> {
     return this.httpClient.get(
-      'http://localhost:3000/comments'
+      'assets/sample.json'
     );
   }
 }
